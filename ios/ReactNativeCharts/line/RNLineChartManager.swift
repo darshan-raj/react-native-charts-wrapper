@@ -43,7 +43,7 @@ open class RNLineChartManager: RCTViewManager, RNBarLineChartBaseManager {
   }
 
   func setVisibleXRange(_ reactTag: NSNumber, minRange: NSNumber, maxRange: NSNumber) {
-    (self as RNBarLineChartBaseManager)._setVisibleRangeX(reactTag, minRange: minRange, maxRange: maxRange)
+    (self as RNBarLineChartBaseManager)._setVisibleXRange(reactTag, minRange: minRange, maxRange: maxRange)
   }
 
 }
